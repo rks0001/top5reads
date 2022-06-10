@@ -1,0 +1,74 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.body{
+
+    background-color:#f5be49 ;
+  
+}
+
+/* Navbar */
+.logo{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 0 80px;
+
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.heading{
+    font-size: 40px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 5px;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.subhead{
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 5px;
+    text-align: center;
+    width: 70%;
+    margin: 20px;
+    font-weight: 600;
+}
+/* post */
+
+.post{
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 5px black;
+    text-align: center;
+    width: 200px;
+    margin: 40px ;
+    font-weight: 600;
+    padding: 20px 0 ;
+    transition: ease-in 0.4s;
+}
+
+.post:hover{
+    color:white;
+    background-color: black;
+    box-shadow: 4px 5px white;
+}
+
+.linkto{
+    text-decoration: none;
+}
