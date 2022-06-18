@@ -1,0 +1,20 @@
+-------TOP 3️ READS------ https://top3reads.netlify.app/
+
+---> Top 3️ Reads is a website that suggest you the best books for every genre.
+     Every book is listed according to popularity.
+
+---> Homepage has all the categories - Action, Classics,Comics,etc.
+
+---> The Website is made using HTML, CSS and JavaScript.
+
+---> READING PROGRESS is a feature made in JavaScript where you can : (***)
+     ---> Monitor your book reading progress.
+     ---> Add books - to read,pending or completed.
+
+---> For pages like GENRE,BUY,BUY BUTTON - a kind of error page is created where user is redirected.
+
+---> This website can be improved by :
+     ---> Using AI to list books data collected from other websites.
+     ---> Or users data can be used to only show top 3 suggested books on the website.
+
+---> This website is hosted online - https://top3reads.netlify.app/

@@ -1,11 +1,11 @@
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Poppins", sans-serif;
     
 }
 
 .body{
 
-    background-color:#f5be49 ;
+    background: #f5af19;
   
 }
 
@@ -15,25 +15,25 @@
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #f5be49;
+    background-color: #fff;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #f5be49;
+    background-color: rgb(224, 224, 224);
     border-radius: 10px;
   }
 /* Navbar */
 .logo{
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: rgb(32, 32, 32);
     font-weight: 600;
     padding: 0 80px;
 
 }
 
 .link{
-    color: black;
+    color: rgb(32, 32, 32);
     text-decoration: none;
     margin: 0 10px;
     font-weight: 600;
@@ -42,8 +42,8 @@
 .heading{
     font-size: 40px;
     background-color: white;
-    border: 2px solid black;
-    box-shadow: 4px 5px;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
     text-align: center;
 
     margin: auto;
@@ -57,8 +57,8 @@
 .subhead{
     font-size: 20px;
     background-color: white;
-    border: 2px solid black;
-    box-shadow: 4px 5px;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -66,14 +66,15 @@
   width: 50%;
   width: 70%;
     font-weight: 600;
+    padding: 10px 0 ;
 }
 /* post */
 
 .post{
     font-size: 20px;
     background-color: white;
-    border: 2px solid black;
-    box-shadow: 4px 5px black;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
     text-align: center;
     width: 200px;
     margin: 40px ;
@@ -82,11 +83,7 @@
     transition: ease-in 0.4s;
 }
 
-.post:hover{
-    color:white;
-    background-color: black;
-    box-shadow: 4px 5px white;
-}
+
 
 .linkto{
     text-decoration: none;

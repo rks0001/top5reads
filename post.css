@@ -1,8 +1,8 @@
 .posted{
     font-size: 20px;
     background-color: white;
-    border: 2px solid black;
-    box-shadow: 4px 5px black;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
 
     width: 200px;
     margin: 40px ;
@@ -10,7 +10,10 @@
     padding: 20px 0 ;
     
     display: block;
+    
 }
+
+
 .titlebook{
     text-align: center;
     font-size: 18px;
@@ -32,14 +35,16 @@
 .btnn{
     width: 100%;
     padding: 0 20px;
+    
 }
 
 .btnbuy{
-color: black;
+    color: rgb(32, 32, 32);
 font-weight: 600;
 background-color: white;
-border: 2px solid black;
-box-shadow: 2px 3px black;
+border-radius: 7px;
+box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
+
 }
 
 .buylink{

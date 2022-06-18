@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link rel="stylesheet" href="post.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="suggest.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
     <title>TOP 3️⃣ READS</title>
 </head>
-<body class="body">
-   <!-- Navbar -->
+<body>
+  
+
+    <!-- Navbar -->
    <nav class="navbar navbar-expand-lg ">
     <a class="logo" href="/">TOP 3️⃣ READS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,31 +26,45 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav my-auto">
-        <li class="nav-item">
+        <li class="nav-item active">
+          <li class="nav-item">
             <a class="link" href="/">HOME</a>
           </li>
-        <li class="nav-item active">
-          <a class="link" href="#">GENRE</a>
-        </li>
-        <li class="nav-item">
-          <a class="link" href="#">BUY</a>
-        </li>
+            <a class="link" href="/error.html">GENRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="link" href="/error.html">BUY</a>
+          </li>
 
-        
-        <li class="nav-item">
-          <a class="link" href="./suggest.html">READING PROGRESS</a>
-        </li>
+          <li class="nav-item">
+            <a class="link" href="./suggest.html">READING PROGRESS</a>
+          </li>
+         
+      
+          </ul>
         
     </div>
   </nav>
-     
-      <!-- Heading -->
-      <div class="container">
-        <div class="heading">🛒 Buy Link Not Available</div>
+  <div class="container">
+    <div class="subhead">📚 Monitor your book reading progress.<br/> ➕ Add books - to read,pending or completed.
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="task-input">
+      <ion-icon name="create-outline"></ion-icon>
+      <input type="text" placeholder="📚 Book Genre-Book Name + Enter ">
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <span class="active" id="all">All Books</span>
+        <span id="pending">Left to Read</span>
+        <span id="completed">Done Reading</span>
       </div>
-
-      
-    
- 
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+  </div>
+</body>
+  <script src="suggest.js"></script>
 </body>
 </html>
